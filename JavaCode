@@ -1,0 +1,87 @@
+Start BMICalculator 
+
+Import the class java util scanner 
+
+Declare weight as double with real number value 
+
+Declare height as double with real number value  
+
+Declare bmi as double with real number value  
+
+Declare gender as character with text value 
+
+Declare continueCalculation as Boolean with true or false value 
+
+ 
+
+continueCalculation = true 
+
+Scanner scanner = new Scanner (System.in)  
+
+ 
+
+While continueCalculation IS TRUE DO 
+
+Try 
+
+weight = scanner.nextDouble()   
+
+height = scanner.nextDouble()   
+
+gender = scanner.next().charAt(0)  
+
+ 
+
+bmi = weight / (height * height)  // Calculate BMI 
+
+System.out.println("Your BMI is: " + bmi) 
+
+ 
+
+If gender IS 'M' OR gender IS 'F' THEN 
+
+If bmi < 18.5 THEN 
+
+System.out.println("You are underweight.") 
+
+Else If bmi >= 18.5 AND bmi < 24.9 THEN 
+
+System.out.println("You have a normal weight.") 
+
+Else If bmi >= 25 AND bmi < 29.9 THEN 
+
+System.out.println("You are overweight.") 
+
+Else 
+
+System.out.println("You are obese.") 
+
+End If 
+
+Else 
+
+System.out.println("Invalid gender! Please enter 'M' for male or 'F' for female.") 
+
+End If 
+
+Catch Exception 
+
+System.out.println("Invalid input! Please enter numeric values for weight and height.") 
+
+scanner.nextLine() 
+
+Continue   
+
+End Try 
+
+response = scanner.next() 
+
+continueCalculation = response.equalsIgnoreCase("yes") 
+
+End While 
+
+scanner.close() 
+
+System.out.println("Thank you for using the BMI calculator!") 
+
+End 
