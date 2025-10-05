@@ -1,0 +1,18 @@
+How are you going to solve the problem? 
+
+The problem is to create a program that calculates the BMI and categorizes it. So I will create an input that takes the users' information about weight, height and gender. 
+I will calculate using the formula BMI = weight / (height * height), from which it will be categorized based on the values ​​obtained in Underweight: BMI < 18.5, Healthy Weight: 18.5 <= BMI < 25, Overweight: 25 <= BMI < 30 any value above is Obese. 
+This will determine the BMI of each user. 
+
+What programming constructs and techniques are you using? Why? 
+
+My code combined the use of different techniques, such as variables, loops, user input/outputs that were well chosen to accurately determine the BMI, 
+obtaining a good user experience, efficiency in using the program and good readability in the code. 
+
+I started by using the java.util.scanner class that allows the user to enter information about weight, height and gender, 
+I also used system.out.print and println for outputs. Then I determined the variables in double that allows the insertion of decimal numbers, 
+I used char to determine the gender in M ​​or F as it only allows storing a single character. I used boolean as continueCalculation to control the main loop and allow the calculation of the BMI, 
+perfect condition to determine in true or false and make the loop continue efficiently and finally the string response that allows the user to answer yes or no about calculating the BMI again. As previously mentioned, 
+I used loops to construct the code and calculate the BMI. The while loop allowed multiple calculations while it was true. The try-catch loop was used in case the user entered something different that would result in an error, 
+preventing the program from crashing or having a bug. The if-else statement was used to classify the BMI, which had multiple exclusive conditions. I also used some arithmetic operators such as /,*, 
+comparison operators <,>=, ==. Logical operator &&, which were essential in the calculations and in the data manipulation. 
