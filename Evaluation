@@ -1,0 +1,12 @@
+What are the strengths of your solution? 
+
+Some strong points are clear comments that explain the purpose of different variables, functions, etc. and make the program easier to understand. Also, user input validation that does not allow negative values, that preventing input errors. Loops that allow the user to calculate their BMI multiple times without having to restart the program. 
+
+What are the weaknesses? 
+
+The weak points are that the program is all done in main and this makes the code less organized, makes the program difficult to read and makes it more difficult to extend or maintain. 
+
+In what way could it be improved? 
+
+To improve the program, I can increase the user input validation to check for non-positive values and add a more realistic range for the user's height and weight. 
+I can also consider a unit conversion to accept both meters and centimetres, too improving the user experience and reducing the chances of errors.
